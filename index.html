@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- PREGUNTA 2. Explique que es el DOM en JavaScript y mencione 5 ejemplos prácticos.-->
+    <p id="nombre1"></p>
+    <p id="apellido_pat1"></p>
+    <p id="apellido_mat1"></p>
+    <p id="nacionalidad1"></p>
+    <p id="ocupacion1"></p>
+    <!--Finaliza el desarrollo de la pregunta 2 -->
+
+    <!-- PREGUNTA 3. Desarrolle 8 botones que al presionar muestre el texto como alerta.
+        Ejemplo:Si tengo un botón 1 y lo presiono deberá mostrarme una alerta “presiono el 1”-->
+    <p id="cambio"></p>
+    <button onclick="boton1()">Boton 1</button>
+    <button onclick="boton2()">Boton 2</button>
+    <button onclick="boton3()">Boton 3</button>
+    <button onclick="boton4()">Boton 4</button>
+    <button onclick="boton5()">Boton 5</button>
+    <button onclick="boton6()">Boton 6</button>
+    <button onclick="boton7()">Boton 7</button>
+    <button onclick="boton8()">Boton 8</button>
+    <!-- Finaliza el desarrollo de la pregunta 3-->
+
+    <!-- PREGUNTA 4. Se pide crear 5 ejemplos usando los enunciados que usted crea conveniente 
+        y ejecuten javascript. -->
+
+        <!--4.1  Se pide hallar la suma total del costo de 3 productos
+             y si supera 500 soles tendrá un descuento de 20 soles.-->
+
+    Ingrese el precio de los productos:
+    <br>
+    <label for="">Producto 1: </label>
+    <input type="text" id="producto1">
+    <br>
+    <br>
+    <label for="">Producto 2: </label>
+    <input type="text" id="producto2">
+    <br>
+    <br>
+    <label for="">Producto 3: </label>
+    <input type="text" id="producto3">
+    <br>
+    <br>
+    <label for="">El costo total de productos es: </label>
+    <input type="text" id="total_productos">
+    <br>
+    <br>
+    <button onclick="suma_precio()">Calcular</button>
+    <p id="mensaje"></p>
+    <!--Fin del desarrollo del primer caso de la pregunta 1 -->
+
+<!--4.2 Mostrar si un número ingresado es par o Impar:  -->
+    <input type="text" id="numero">
+<button onclick="par_impar()">muestra si es Par o Impar</button>
+<p id="mensaje"></p>
+<!-- fin del desarrolo del caso 4.2 -->
+
+<!-- 4.3 Mostrar por consola los números pares menores a 15:  -->
+<button onclick="pares()">muestra numeros pares por consola</button>
+ 
+<!-- finaliza el caso 4.3 -->
+
+
+<!-- 4.4 -->
+<br>
+<br>
+Ingrese el monto de la donación:
+    <br>
+    <label for="">Monto total: </label>
+    <input type="text" id="monto_total">
+    <br>
+    <br>
+    <label for="">para Centro de Salud: </label>
+    <input type="text" id="centro_salud">
+    <br>
+    <br>
+    <label for="">para Comedor: </label>
+    <input type="text" id="comedor">
+    <br>
+    <br>
+    <label for="">para la inversion en bolsa: </label>
+    <input type="text" id="inversion_bolsa">
+    <br>
+    <br>
+    <button onclick="donacion()">Calcular</button>
+    <p id="mensaje"></p>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
